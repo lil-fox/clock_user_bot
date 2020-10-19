@@ -17,6 +17,7 @@ class CommandHandler:
             handler()
 
     def _activate(self):
+        self._deactivate()
         job = self._crontab.new(command=f"cd {config.DIR_PATH} && ./app.py",
                                 comment=config.BOT_ID)
 
