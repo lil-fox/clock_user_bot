@@ -20,7 +20,7 @@ chmod +x app.py
 ./app.py activate
 ```
 
-## Run
+## Stop
 ```bash
 ./app.py deactivate
 ```
